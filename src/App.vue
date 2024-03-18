@@ -1,5 +1,5 @@
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MessageComponent from './components/MessageComponent.vue'
 import moment from 'vue-moment';
 // let msg = "ya mero cumples anos Fridita! ya es dia de tu cumpleanos?"
 // cp -r /mnt/c/Users/Ruben/OneDrive/Pictures/frida_website/ fridas_birthday/src/assets/gifs/
@@ -43,7 +43,7 @@ export default {
     },
   },
   components: {
-    HelloWorld,
+    MessageComponent,
   },
   // rest of the component
 };
@@ -68,7 +68,7 @@ export default {
   </div>
   <div class="background">
     <div class="wrapper">
-      <HelloWorld :msg="msg" :msg2="msg2" />
+      <MessageComponent :msg="msg" :msg2="msg2" />
     </div>
 
     <div class="buttons center">
