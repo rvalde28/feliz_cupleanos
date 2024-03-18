@@ -231,8 +231,8 @@ header {
 
 
 @media only screen and (max-width: 1399px) and (min-width: 0px)  {
-.buttons{
-  font-size: 1.6vw;
+.button-response{
+  font-size: 1.6rem!important;
 }
 
 .balloon-box{
