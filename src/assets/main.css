@@ -1,0 +1,30 @@
+@import './base.css';
+
+@media only screen and (max-width: 1399px) and (min-width: 0px)  {
+  #app {
+    height: 100vh!important;
+  }
+}
+
+#app {
+  /* width: 100vw; */
+  /* height: 100vh; */
+  background-color: #FEEEEC;
+  margin: 0 auto;
+  padding-top: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
