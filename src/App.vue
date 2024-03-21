@@ -144,6 +144,7 @@ img{
 
   .messageBox{
     width: 60vw!important;
+    color: #2c3e50!important
   }
 
   .messageBoard{
