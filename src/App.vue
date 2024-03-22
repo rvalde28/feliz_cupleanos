@@ -73,12 +73,20 @@
         </div>
 
         <div class="mobileView">
-          <img v-if="i==9" src="./assets/pics/uploads/IMG_1328.jpeg" >
           <div v-if="i==9" class="messageBox">
-            <div v-if="i==9" class="messageBoard">Mi Fridita hermosa feliz cumpleaños mi estrellita! 💫❤️ le doy muchas gracias a dios que nos a bendecido con tu presciencia, con tu sonrisa, con tus chistesitos, y con tu risa otro año más! No podría estar más emocionado por ti y por todo lo que has echo y por lo que vas a hacer. Nunca te voy a parar de querer mucho Fridita, nunca! Que dios te bendiga y te cuide siempre hermosa! ❤️ espero que tengas un cumpleaños muy bonito niña adulta de 22! 🎉"</div>
-            <div v-if="i==9" class="">- Rubencito</div>
+            <div v-if="i==9" class="messageBoard">Happy birthday Frida! I hope you have THE BEST BIRTHDAY EVER LATINA QUEEEEN. I’m so happy I met you. I love our friendship & I’m very thankful for you. You’re such a kind and sweet soul. Thank you for being you. I love you Latina queen.</div>
+            <div v-if="i==9" class="">- shy girl 💜(Val)</div>
           </div>
         </div>
+
+        <div class="mobileView">
+          <img v-if="i==10" src="./assets/pics/uploads/IMG_1328.jpeg" >
+          <div v-if="i==10" class="messageBox">
+            <div v-if="i==10" class="messageBoard">Mi Fridita hermosa feliz cumpleaños mi estrellita! 💫❤️ le doy muchas gracias a dios que nos a bendecido con tu presciencia, con tu sonrisa, con tus chistesitos, y con tu risa otro año más! No podría estar más emocionado por ti y por todo lo que has echo y por lo que vas a hacer. Nunca te voy a parar de querer mucho Fridita, nunca! Que dios te bendiga y te cuide siempre hermosa! ❤️ espero que tengas un cumpleaños muy bonito niña adulta de 22! 🎉"</div>
+            <div v-if="i==10" class="">- Rubencito</div>
+          </div>
+        </div>
+
 
     </Slide>
 
@@ -105,7 +113,7 @@ export default defineComponent({
   },
   data() {
     return {
-      items: [{},{},{},{},{},{},{},{},{},{}],
+      items: [{},{},{},{},{},{},{},{},{},{},{}],
     }
   },
 })
